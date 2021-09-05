@@ -1,0 +1,82 @@
+{
+    "ok" : "true",
+    "goods" : [
+        {
+            "id" : 1,
+            "name" : "JBL Tune 110",
+            "category" : "wired-headphones",
+            "timestamp" : 1622533560000,
+            "price" : 9.00
+        },
+        {
+            "id" : 2,
+            "name" : "Sennheiser HD 206",
+            "category" : "wired-headphones",
+            "timestamp" : 1623769200000,
+            "price" : 18.48
+        },
+        {
+            "id" : 3,
+            "name" : "HUAWEI FreeBuds 4i",
+            "category" : "wireless-headphones",
+            "timestamp" : 1623340800000,
+            "price" : 90.59
+        },
+        {
+            "id" : 4,
+            "name" : "Samsung Galaxy Buds+",
+            "category" : "wireless-headphones",
+            "timestamp" : 1623790800000,
+            "price" : 103.42
+        },
+        {
+            "id" : 5,
+            "name" : "Bixton AirOns Pro 2",
+            "category" : "wireless-headphones",
+            "timestamp" : 1622912400000,
+            "price" : 55.16
+        },
+        {
+            "id" : 6,
+            "name" : "Apple AirPods 2",
+            "category" : "wireless-headphones",
+            "timestamp" : 1622934000000,
+            "price" : 172.38
+        },
+        {
+            "id" : 7,
+            "name" : "JBL Tune 660NC",
+            "category" : "wireless-headphones",
+            "timestamp" : 1622826000000,
+            "price" : 55.16
+        },
+        {
+            "id" : 8,
+            "name" : "Sony WH-1000XM4",
+            "category" : "wireless-headphones",
+            "timestamp" : 1623362400000,
+            "price" : 348.89
+        },
+        {
+            "id" : 9,
+            "name" : "Xiaomi Mi Band 6",
+            "category" : "smart-watches",
+            "timestamp" : 1622912400000,
+            "price" : 55.16
+        },
+        {
+            "id" : 10,
+            "name" : "Apple Watch Series 3 38мм",
+            "category" : "smart-watches",
+            "timestamp" : 1623848400000,
+            "price" : 243.31
+        },
+        {
+            "id" : 11,
+            "name" : "Samsung Galaxy Watch3 41мм",
+            "category" : "smart-watches",
+            "timestamp" : 1623704400000,
+            "price" : 289.59
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<div th:switch="${productList}">
+    <h2 th:case="null">No users yet!</h2>
+    <div th:case="*">
+        <table>
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Date and Time</th>
+                <th>Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="product : ${productList}">
+                <td th:text="${product.getId()}"></td>
+                <td th:text="${product.getName()}"></td>
+                <div th:switch="${product.getCategory()}">
+                    <td th:case="${T(com.example.jsonreader.domain.Category).WIRED}"
+                        th:text="${T(com.example.jsonreader.domain.Category).WIRED.getName()}"></td>
+                    <td th:case="${T(com.example.jsonreader.domain.Category).WIRELESS}"
+                        th:text="${T(com.example.jsonreader.domain.Category).WIRELESS.getName()}"></td>
+                    <td th:case="${T(com.example.jsonreader.domain.Category).WATCHES}"
+                        th:text="${T(com.example.jsonreader.domain.Category).WATCHES.getName()}"></td>
+                </div>
+                <td th:text="${product.getDate()}"></td>
+                <td th:text="${product.getPrice()}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
